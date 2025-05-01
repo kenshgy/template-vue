@@ -19,7 +19,6 @@
   </v-app-bar>
 </template>
 <script setup lang="ts">
-import { getAuth } from 'firebase/auth'
 import { onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { mdiAccount } from '@mdi/js'
